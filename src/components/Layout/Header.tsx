@@ -32,7 +32,7 @@ const Header: React.FC = () => {
           {/* Logo */}
           <Link to="/" className="flex items-center space-x-2">
             <Camera className="h-8 w-8 text-indigo-600" />
-            <span className="text-xl font-bold text-gray-900">PixelPerfect</span>
+            <span className="text-xl font-bold text-gray-900"> <span className='text-transparent bg-clip-text bg-gradient-to-r from-indigo-900 via-purple-900 to-pink-900 py-24'> Ethical</span><span className="text-transparent bg-clip-text bg-gradient-to-r from-indigo-400 to-purple-400">Production Ltd</span> </span>
           </Link>
 
           {/* Desktop Navigation */}
